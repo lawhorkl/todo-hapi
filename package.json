@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "@hapi/hapi": "^20.2.1",
-    "joi": "^17.5.0"
+    "joi": "^17.5.0",
+    "knex": "^0.95.15"
   },
   "scripts": {
     "dev:tsc": "tsc --watch -p .",

@@ -1,10 +1,6 @@
 import { Request, ResponseToolkit } from "@hapi/hapi";
+import { Todo } from "../db/repos/TodoRepository";
 
-interface Todo {
-    name: string,
-    date: string,
-    completed: boolean
-}
 
 export const getTodos = (
     request: Request, 
